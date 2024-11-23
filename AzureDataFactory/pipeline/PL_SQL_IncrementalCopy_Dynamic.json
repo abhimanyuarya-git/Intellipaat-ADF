@@ -1,6 +1,7 @@
 {
 	"name": "PL_SQL_IncrementalCopy_Dynamic",
 	"properties": {
+		"description": "This Pipeline is used for Copy Data from SQL databases with a time range defined by WaterMark value",
 		"activities": [
 			{
 				"name": "LKP_OldWaterMarkValue",
