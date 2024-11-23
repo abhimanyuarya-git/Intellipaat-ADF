@@ -1,0 +1,17 @@
+{
+	"name": "TRG_PL_SQL_Parent",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 5,
+				"startTime": "2024-11-17T22:32:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
