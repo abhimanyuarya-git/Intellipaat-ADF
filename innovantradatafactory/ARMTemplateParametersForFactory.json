@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "innovantradatafactory"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_Innovantra_DB_password": {
+			"value": ""
+		},
+		"LS_SQL_VISA_DB_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://innovantracrm.dfs.core.windows.net/"
+		},
+		"LS_SQL_Innovantra_DB_properties_typeProperties_server": {
+			"value": "innovantraserver.database.windows.net"
+		},
+		"LS_SQL_Innovantra_DB_properties_typeProperties_database": {
+			"value": "innovantra-project-DB"
+		},
+		"LS_SQL_Innovantra_DB_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"LS_SQL_VISA_DB_properties_typeProperties_server": {
+			"value": "visacreditserver.database.windows.net"
+		},
+		"LS_SQL_VISA_DB_properties_typeProperties_database": {
+			"value": "VISAcreditcard-DB"
+		},
+		"LS_SQL_VISA_DB_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		}
+	}
+}
