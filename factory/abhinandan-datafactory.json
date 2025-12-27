@@ -1,0 +1,9 @@
+{
+	"name": "abhinandan-datafactory",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "674af41f-fc96-465f-97f1-fbeb7535f9be",
+		"tenantId": "33df1bd0-7a22-460c-bf42-b11ba221c820"
+	}
+}
